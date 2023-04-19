@@ -1,0 +1,51 @@
+.story {
+  position: relative;
+  counter-increment: step-counter;
+  margin-top: 40px;
+}
+
+.story a::before {
+  content: counter(step-counter);
+  position: absolute;
+  width: 100px;
+  text-align: right;
+  top: -8px;
+  left: -120px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: rgba(var(--themeColorMain), var(--themeColorListNumberOpacity));
+}
+
+.story a .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(var(--themeListInfoColor));
+}
+
+.story a p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(var(--themeListInfoColor));
+}
+
+.story a:hover::before {
+  font-size: 64px;
+  color: rgba(var(--themeColorMain));
+}
+
+.story a:hover .title {
+  color: rgba(var(--themeColorMain));
+}
+
+.story a:hover p {
+  color: rgba(var(--themeColorMain));
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}

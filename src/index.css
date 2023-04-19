@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+body {
+  --themeColorMain: 255, 102, 0;
+  --themeColorMainOpacity: 1;
+  --themeColorListNumberOpacity: 0.3;
+  --themeColorText: 255, 255, 255;
+  --themeListInfoColor: 0, 0, 0;
+  font-family: "Inter", sans-serif;
+}

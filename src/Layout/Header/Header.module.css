@@ -1,0 +1,10 @@
+.title {
+  background-color: rgba(var(--themeColorMain), var(--themeColorMainOpacity));
+  color: rgb(var(--themeColorText));
+  height: 62px;
+  padding-left: 12%;
+  padding-top: 36px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+}
